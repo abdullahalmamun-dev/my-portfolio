@@ -45,32 +45,24 @@ const projects = [
     github: "https://github.com/abdullahalmamun-dev/investment-tracker-system",
   },
   {
-    id: 4,
-    title: "Foodies Restaurant",
+    id: 5,
+    title: "Nautical Nexus - Boat Booking System",
     description:
-      "Foodies Restaurant is a restaurant management website designed to streamline the process of managing a dynamic menu. The platform enables the restaurant to efficiently add, update, and remove various types of dishes, allowing for a constantly updated menu that meets customer expectations.",
-    image: "/foodies-mockup.webp",
+      "The platform offers users an extensive listing of available boats across various locations, with detailed information about each vessel, its amenities, and availability. Users can easily book boats for short or extended trips, manage bookings, and explore various boat types, ranging from personal yachts to luxury cruises.",
+    image: "/images/projects/nautical_nexus/5.webp",
     tags: ["Next.js", "TypeScript", "MongoDB"],
     github: "https://github.com/abdullahalmamun-dev/investment-tracker-system",
   },
   {
-    id: 4,
-    title: "Foodies Restaurant",
+    id: 6,
+    title: "Nautical Nexus - Boat Booking System",
     description:
-      "Foodies Restaurant is a restaurant management website designed to streamline the process of managing a dynamic menu. The platform enables the restaurant to efficiently add, update, and remove various types of dishes, allowing for a constantly updated menu that meets customer expectations.",
-    image: "/foodies-mockup.webp",
+      "The platform offers users an extensive listing of available boats across various locations, with detailed information about each vessel, its amenities, and availability. Users can easily book boats for short or extended trips, manage bookings, and explore various boat types, ranging from personal yachts to luxury cruises.",
+    image: "/images/projects/nautical_nexus/5.webp",
     tags: ["Next.js", "TypeScript", "MongoDB"],
     github: "https://github.com/abdullahalmamun-dev/investment-tracker-system",
   },
-  {
-    id: 4,
-    title: "Foodies Restaurant",
-    description:
-      "Foodies Restaurant is a restaurant management website designed to streamline the process of managing a dynamic menu. The platform enables the restaurant to efficiently add, update, and remove various types of dishes, allowing for a constantly updated menu that meets customer expectations.",
-    image: "/foodies-mockup.webp",
-    tags: ["Next.js", "TypeScript", "MongoDB"],
-    github: "https://github.com/abdullahalmamun-dev/investment-tracker-system",
-  },
+
 ];
 
 export default function Home() {
