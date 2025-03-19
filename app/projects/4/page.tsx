@@ -30,7 +30,7 @@ export default function ProjectDetails() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50 dark:from-slate-900 dark:to-amber-950">
+    <div className="min-h-screen max-w-screen-xl mx-auto bg-gradient-to-br from-orange-50 to-amber-50 dark:from-slate-900 dark:to-amber-950">
       {/* Header with Navigation */}
       <header className="bg-white dark:bg-slate-900 sticky top-0 z-10 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">

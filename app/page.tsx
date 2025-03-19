@@ -13,7 +13,7 @@ const projects = [
     description:
       "A dynamic platform uniting Bangladesh's artistic and creative community by showcasing diverse cultural events. From art and dance to technology and cuisine, it serves as a central hub for discovering and participating in cultural activities.",
     image: "/Event-Planner-BD-Mockup.webp",
-    tags: ["Next.js", "SSLCommerz", "MongoDB"],
+    tags: ["React.js", "MongoDB", "Tailwind CSS", "Node.js", "Express.js", "Firebase"],
     github: "https://github.com/abdullahalmamun-dev/event-planner-bd",
     demo: "https://event-planner-bd.vercel.app/"
   },
@@ -23,7 +23,7 @@ const projects = [
     description:
       "The website offers users access to an extensive list of tourist spots, with detailed descriptions to aid decision-making. In addition, the platform encourages user contributions, allowing individuals to share their favorite travel destinations and experiences. ",
     image: "/Emperal-Travels-Mockup.webp",
-    tags: ["React", "Firebase", "D3.js"],
+    tags: ["React.js", "MongoDB", "Tailwind CSS", "Node.js", "Express.js", "Firebase"],
     github: "https://github.com/abdullahalmamun-dev/emperal-travels-client",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description:
       "An e-commerce platform created to offer a seamless and user-friendly online shopping experience for medical products. Designed to allow users to browse, add to cart, and purchase medicines with ease, also includes a secure login system, a streamlined checkout process, and automatic price calculations.",
     image: "/Mediore-Mockup.webp",
-    tags: ["React", "Node.js", "Socket.io"],
+    tags: ["React.js", "SSLCommerz", "MongoDB", "Tailwind CSS", "Node.js", "Express.js", "Firebase"],
     github: "https://github.com/abdullahalmamun-dev/task-management",
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     description:
       "Foodies Restaurant is a restaurant management website designed to streamline the process of managing a dynamic menu. The platform enables the restaurant to efficiently add, update, and remove various types of dishes, allowing for a constantly updated menu that meets customer expectations.",
     image: "/foodies-mockup.webp",
-    tags: ["Next.js", "TypeScript", "MongoDB"],
+    tags: ["React.js", "MongoDB", "Tailwind CSS", "Node.js", "Express.js", "Firebase"],
     github: "https://github.com/abdullahalmamun-dev/investment-tracker-system",
   },
   {
@@ -67,7 +67,7 @@ const projects = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen max-w-screen-xl mx-auto bg-gradient-to-br from-background via-background/95 to-background">
+    <div className=" min-h-screen max-w-screen-xl px-4 md:mx-auto bg-gradient-to-br from-background via-background/95 to-background">
       {/* Hero Section*/}
       <section className="relative overflow-hidden py-20 md:py-28">
         <div className="container mx-auto px-4">
@@ -106,7 +106,7 @@ export default function Home() {
               </div>
             </div>
             <div className="md:w-1/2 order-1 md:order-2">
-              <div className="relative h-80 md:h-[450px] w-full rounded-2xl overflow-hidden shadow-2xl shadow-primary/20">
+              <div className="relative w-80 h-80 md:h-[450px] md:w-full rounded-2xl overflow-hidden shadow-2xl shadow-primary/20">
                 <Image
                   alt="Abdullah Al Mamun"
                   fill
@@ -268,6 +268,28 @@ export default function Home() {
           </div>
         </div>
       </section>
+            {/* Footer */}
+            <footer className="bg-white dark:bg-slate-900 py-8 mt-12">
+        <div className="container mx-auto px-4 text-center">
+          <p className="text-gray-600 dark:text-gray-400">
+            © {new Date().getFullYear()} Abdullah Al Mamun. All rights reserved.
+          </p>
+          <div className="flex justify-center mt-4 space-x-4">
+            <Link href="https://github.com/abdullahalmamun-dev" target="_blank" rel="noopener noreferrer" 
+              className="text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">
+              <Github className="h-5 w-5" />
+            </Link>
+            <Link href="https://www.linkedin.com/in/abdullahalmamundev/" target="_blank" rel="noopener noreferrer" 
+              className="text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">
+              <Linkedin className="h-5 w-5" />
+            </Link>
+            <Link href="mailto:mdabdullah.allinfozone@gmail.com" 
+              className="text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400">
+              <Mail className="h-5 w-5" />
+            </Link>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
