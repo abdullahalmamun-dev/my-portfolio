@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const projects = [
   {
-    id: 5,
+    id: 1,
     title: "Event Planner BD",
     description:
       "A dynamic platform uniting Bangladesh's artistic and creative community by showcasing diverse cultural events. From art and dance to technology and cuisine, it serves as a central hub for discovering and participating in cultural activities.",
@@ -49,7 +49,7 @@ const projects = [
 export default function Home() {
   return (
     <div className="min-h-screen max-w-screen-xl mx-auto bg-gradient-to-br from-background via-background/95 to-background">
-      {/* Hero Section - Enhanced with better spacing and visual flow */}
+      {/* Hero Section*/}
       <section className="relative overflow-hidden py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
@@ -101,7 +101,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Expertise Section - Redesigned with better visuals */}
+      {/* Expertise Section*/}
       <section className="py-20 bg-gradient-to-b from-background to-primary/5">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -153,7 +153,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Projects Section - Improved layout and presentation */}
+      {/* Featured Projects Section*/}
       <section className="py-20 bg-gradient-to-b from-primary/5 to-background/90">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -223,7 +223,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section - Enhanced with more engaging design */}
+      {/* Contact Section*/}
       <section className="py-20 bg-gradient-to-t from-background to-primary/5 rounded-t-3xl">
         <div className="container mx-auto px-4 text-center">
           <span className="bg-secondary/10 text-secondary px-4 py-2 rounded-full text-sm font-medium">Get In Touch</span>
