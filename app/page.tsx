@@ -13,34 +13,61 @@ const projects = [
     description:
       "A dynamic platform uniting Bangladesh's artistic and creative community by showcasing diverse cultural events. From art and dance to technology and cuisine, it serves as a central hub for discovering and participating in cultural activities.",
     image: "/Event-Planner-BD-Mockup.webp",
-    tags: ["Next.js", "Stripe", "MongoDB"],
+    tags: ["Next.js", "SSLCommerz", "MongoDB"],
     github: "https://github.com/abdullahalmamun-dev/event-planner-bd",
     demo: "https://event-planner-bd.vercel.app/"
   },
   {
     id: 2,
-    title: "Social Media Dashboard",
+    title: "Emperal Travels",
     description:
-      "Real-time social media analytics dashboard with data visualization.",
-    image: "https://source.unsplash.com/random/800x600?dashboard",
+      "The website offers users access to an extensive list of tourist spots, with detailed descriptions to aid decision-making. In addition, the platform encourages user contributions, allowing individuals to share their favorite travel destinations and experiences. ",
+    image: "/Emperal-Travels-Mockup.webp",
     tags: ["React", "Firebase", "D3.js"],
-    github: "https://github.com/abdullahalmamun-dev/social-dashboard",
+    github: "https://github.com/abdullahalmamun-dev/emperal-travels-client",
   },
   {
     id: 3,
-    title: "Task Management App",
+    title: "Mediore - Medicine Store",
     description:
-      "Collaborative task management platform with real-time updates.",
-    image: "https://source.unsplash.com/random/800x600?task",
+      "An e-commerce platform created to offer a seamless and user-friendly online shopping experience for medical products. Designed to allow users to browse, add to cart, and purchase medicines with ease, also includes a secure login system, a streamlined checkout process, and automatic price calculations.",
+    image: "/Mediore-Mockup.webp",
     tags: ["React", "Node.js", "Socket.io"],
     github: "https://github.com/abdullahalmamun-dev/task-management",
   },
   {
     id: 4,
-    title: "Investment Tracker System",
+    title: "Foodies Restaurant",
     description:
-      "Comprehensive investment tracking solution for monitoring financial performance.",
-    image: "https://source.unsplash.com/random/800x600?finance",
+      "Foodies Restaurant is a restaurant management website designed to streamline the process of managing a dynamic menu. The platform enables the restaurant to efficiently add, update, and remove various types of dishes, allowing for a constantly updated menu that meets customer expectations.",
+    image: "/foodies-mockup.webp",
+    tags: ["Next.js", "TypeScript", "MongoDB"],
+    github: "https://github.com/abdullahalmamun-dev/investment-tracker-system",
+  },
+  {
+    id: 4,
+    title: "Foodies Restaurant",
+    description:
+      "Foodies Restaurant is a restaurant management website designed to streamline the process of managing a dynamic menu. The platform enables the restaurant to efficiently add, update, and remove various types of dishes, allowing for a constantly updated menu that meets customer expectations.",
+    image: "/foodies-mockup.webp",
+    tags: ["Next.js", "TypeScript", "MongoDB"],
+    github: "https://github.com/abdullahalmamun-dev/investment-tracker-system",
+  },
+  {
+    id: 4,
+    title: "Foodies Restaurant",
+    description:
+      "Foodies Restaurant is a restaurant management website designed to streamline the process of managing a dynamic menu. The platform enables the restaurant to efficiently add, update, and remove various types of dishes, allowing for a constantly updated menu that meets customer expectations.",
+    image: "/foodies-mockup.webp",
+    tags: ["Next.js", "TypeScript", "MongoDB"],
+    github: "https://github.com/abdullahalmamun-dev/investment-tracker-system",
+  },
+  {
+    id: 4,
+    title: "Foodies Restaurant",
+    description:
+      "Foodies Restaurant is a restaurant management website designed to streamline the process of managing a dynamic menu. The platform enables the restaurant to efficiently add, update, and remove various types of dishes, allowing for a constantly updated menu that meets customer expectations.",
+    image: "/foodies-mockup.webp",
     tags: ["Next.js", "TypeScript", "MongoDB"],
     github: "https://github.com/abdullahalmamun-dev/investment-tracker-system",
   },
