@@ -50,17 +50,17 @@ const projects = [
     description:
       "The platform offers users an extensive listing of available boats across various locations, with detailed information about each vessel, its amenities, and availability. Users can easily book boats for short or extended trips, manage bookings, and explore various boat types, ranging from personal yachts to luxury cruises.",
     image: "/images/projects/nautical_nexus/5.webp",
-    tags: ["Next.js", "TypeScript", "MongoDB"],
+    tags: ["PHP","MySQL", "Tailwind"," JavaScript","HTML5", "CSS3"],
     github: "https://github.com/abdullahalmamun-dev/investment-tracker-system",
   },
   {
     id: 6,
-    title: "Nautical Nexus - Boat Booking System",
+    title: "Computers Corner - POS Software",
     description:
-      "The platform offers users an extensive listing of available boats across various locations, with detailed information about each vessel, its amenities, and availability. Users can easily book boats for short or extended trips, manage bookings, and explore various boat types, ranging from personal yachts to luxury cruises.",
-    image: "/images/projects/nautical_nexus/5.webp",
-    tags: ["Next.js", "TypeScript", "MongoDB"],
-    github: "https://github.com/abdullahalmamun-dev/investment-tracker-system",
+      "The platform offers a centralized system for managing inventory, recording transactions, and generating insightful sales reports. Built using PHP for backend processing, MySQL for secure data storage, and Tailwind CSS for responsive styling, enhancing both operational efficiency and customer engagement. \n\n",
+    image: "/POS-Mockup-1.webp",
+    tags: ["PHP","MySQL", "Tailwind"," JavaScript","HTML5", "CSS3"],
+    github: "https://github.com/abdullahalmamun-dev/ComputersCorner_POS",
   },
 
 ];
