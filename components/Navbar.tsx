@@ -35,7 +35,8 @@ const Navbar = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-11/12 mx-auto">
+        <div className=" py-4 px-4 sm:px-6  ">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <motion.div
@@ -44,8 +45,8 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <Link href="/" className="text-2xl font-bold gradient-text">
-              AAM
+            <Link href="/" className="text-2xl text-pink-500 font-logo uppercase tracking-widest font-bold ">
+             Abdullah Al Mamun
             </Link>
           </motion.div>
 
@@ -55,7 +56,7 @@ const Navbar = () => {
               <motion.a
                 key={item.label}
                 href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                className="text-lg font-medium text-muted-foreground hover:text-foreground transition-colors"
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
@@ -82,7 +83,7 @@ const Navbar = () => {
                 GitHub
               </a>
             </Button>
-            <Button size="sm">Let's Talk</Button>
+            <Button size="sm">Lets Talk</Button>
           </motion.div>
 
           {/* Mobile Menu Button */}
@@ -121,7 +122,7 @@ const Navbar = () => {
                     GitHub
                   </Button>
                   <Button size="sm" className="w-full">
-                    Let's Talk
+                    Lets Talk
                   </Button>
                 </div>
               </div>
@@ -129,6 +130,8 @@ const Navbar = () => {
           )}
         </AnimatePresence>
       </div>
+      </div>
+      
     </motion.nav>
   );
 };

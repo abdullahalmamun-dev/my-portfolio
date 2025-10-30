@@ -107,10 +107,10 @@ const Services = () => {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-5xl md:text-6xl font-bold mb-4">
-            Services & <span className="gradient-text">Expertise</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Services & <span className="text-pink-500 animate-pulse">Expertise</span>
           </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-900 max-w-3xl mx-auto">
             Comprehensive web development solutions tailored to your business
             needs
           </p>
@@ -139,10 +139,10 @@ const Services = () => {
                 >
                   {service.icon}
                 </motion.div>
-                <h3 className="text-2xl font-bold mb-3 text-white">
+                <h3 className="text-2xl font-bold mb-3 text-gray-900">
                   {service.title}
                 </h3>
-                <p className="text-gray-300 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed">
                   {service.description}
                 </p>
               </Card>

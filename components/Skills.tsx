@@ -82,10 +82,10 @@ const Skills = () => {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Skills &<span className="gradient-text"> Expertise</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Skills &<span className="text-pink-500 animate-pulse"> Expertise</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             A comprehensive toolkit built through years of development
             experience
           </p>
@@ -105,7 +105,7 @@ const Skills = () => {
               whileHover={{ y: -5 }}
             >
               <Card className="p-8 bg-gradient-to-br from-card to-card/50 border-primary/20 hover:border-primary/50 transition-all">
-                <h3 className="text-2xl font-bold mb-6">{category.title}</h3>
+                <h3 className="text-2xl tracking-wider font-bold mb-6">{category.title}</h3>
                 <div className="flex flex-wrap gap-3">
                   {category.skills.map((skill, skillIndex) => (
                     <motion.div

@@ -30,13 +30,13 @@ const CTA = () => {
 
           <div className="relative z-10 text-center">
             <motion.h2
-              className="text-4xl md:text-5xl font-bold mb-6"
+              className="text-3xl md:text-4xl font-bold mb-6"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
               viewport={{ once: true }}
             >
-              Ready to <span className="gradient-text">transform</span> your
+              Ready to <span className="text-pink-500 animate-pulse">transform</span> your
               ideas?
             </motion.h2>
 
@@ -47,8 +47,8 @@ const CTA = () => {
               transition={{ delay: 0.3 }}
               viewport={{ once: true }}
             >
-              Let's collaborate to create something extraordinary. Whether you
-              have a complete project plan or just an idea, I'm here to help
+              Lets collaborate to create something extraordinary. Whether you
+              have a complete project plan or just an idea, I am here to help
               bring it to life.
             </motion.p>
 

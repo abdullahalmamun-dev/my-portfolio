@@ -74,6 +74,16 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@font-face {
+  font-family: 'Anurati';
+  src: url('/fonts/anurati.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-logo {
+  font-family: 'Anurati', sans-serif;
+}
 /* Use standard border instead of border-border */
 * {
   border-color: hsl(var(--border));

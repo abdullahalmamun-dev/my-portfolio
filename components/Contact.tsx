@@ -62,11 +62,11 @@ const Contact = () => {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Get In <span className="gradient-text">Touch</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Get In <span className="text-pink-500 animate-pulse">Touch</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Have a question or ready to start your next project? I'd love to
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Have a question or ready to start your next project? I would love to
             hear from you.
           </p>
         </motion.div>
@@ -82,9 +82,9 @@ const Contact = () => {
               viewport={{ once: true }}
               whileHover={{ y: -5 }}
             >
-              <Card className="p-8 text-center bg-gradient-to-br from-card to-card/50 border-primary/20 hover:border-primary/50 transition-all cursor-pointer">
+              <Card className="p-8 flex flex-col items-center justify-center text-center bg-gradient-to-br from-card to-card/50 border-primary/20 hover:border-primary/50 transition-all cursor-pointer">
                 <motion.div
-                  className="w-12 h-12 mx-auto mb-4 text-primary"
+                  className="w-12 flex justify-center h-12 mx-auto mb-4 items-center text-primary"
                   whileHover={{ rotate: 10, scale: 1.1 }}
                 >
                   {method.icon}

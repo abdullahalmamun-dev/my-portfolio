@@ -38,7 +38,7 @@ const Footer = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold gradient-text mb-2">AAM</h3>
+            <h3 className="text-2xl font-bold font-logo uppercase tracking-wide text-pink-500 mb-2">Abdullah Al Mamun</h3>
             <p className="text-muted-foreground">
               Full-Stack Developer & Creative Problem Solver
             </p>

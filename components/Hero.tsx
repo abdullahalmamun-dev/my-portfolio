@@ -30,7 +30,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center pt-20 px-4 md:px-8"
+      className="relative min-h-screen lg:mt-20 mt-0 flex items-center justify-center pt-20 px-4 md:px-8"
     >
       <div className="max-w-7xl mx-auto w-full">
         <motion.div
@@ -51,28 +51,28 @@ const Hero = () => {
               transition={{ delay: 0.2 }}
             >
               <div className="px-4 py-2 rounded-full bg-gradient-to-r from-purple-600/20 to-pink-600/20 border border-purple-500/30 backdrop-blur-sm">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 font-semibold text-sm">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-700 font-semibold text-sm">
                   👋 Welcome to my digital space
                 </span>
               </div>
             </motion.div>
 
             <motion.h1
-              className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
+              className="text-5xl md:text-6xl font-bold mb-6 leading-tight"
               variants={itemVariants}
             >
-              I'm{" "}
-              <span className="gradient-text animate-pulse">
+              I am{" "} <br />
+              <span className="text-pink-500 animate-pulse">
                 Abdullah Al Mamun
               </span>
             </motion.h1>
 
             <motion.p
-              className="text-xl text-gray-300 mb-8 leading-relaxed"
+              className="text-xl text-gray-800 mb-8 leading-relaxed"
               variants={itemVariants}
             >
               Full-Stack Developer crafting{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-500">
                 beautiful & scalable
               </span>{" "}
               web applications. Specializing in MERN stack with a passion for
